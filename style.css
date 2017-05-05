@@ -125,3 +125,24 @@ footer a:hover:after {
 	width: 100%;
 	transition: width 0.3s;
 }
+
+@media only screen and (max-width: 800px) {
+
+    #logo a, #logo a:hover {
+        font-size: 18px;
+}
+    header nav ul li a {
+    font-size: 16px;
+}
+h1 {
+    font-size: 32px;
+    letter-spacing: -1px;
+}
+    p {
+        font-size: 18px;
+        line-height: 28px;
+}  
+    footer {
+        font-size: 18px;
+}
+}
