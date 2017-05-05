@@ -132,17 +132,20 @@ footer a:hover:after {
         font-size: 18px;
 }
     header nav ul li a {
-    font-size: 16px;
+        font-size: 16px;
 }
-h1 {
-    font-size: 32px;
-    letter-spacing: -1px;
+    h1 {
+        font-size: 32px;
+        letter-spacing: -1px;
 }
     p {
         font-size: 18px;
         line-height: 28px;
-}  
+}
     footer {
         font-size: 18px;
+}
+    .header-wrapper, .wrapper {
+        padding: 0 10px;
 }
 }
