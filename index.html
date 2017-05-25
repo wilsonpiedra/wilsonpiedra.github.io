@@ -4,19 +4,16 @@ layout: default
 
 <h1>I make things for humans.</h1>
 <p>Hello, I am Wilson Piedra a designer living in Uruguay, who likes to solve problems by making simple and useful things for people<span id="dot">.</span></p>
-<p>I am a lover of grids, coffee, minimalism, scandinavian design, bauhaus & dark jazz. I am really stoked about designs coming to live and exploring new tools to improve my design process day by day<span id="dot">.</span></p>
 <div class="home">
-
-  <h2>Writing</h2>
-  
-  <div class="writing">
-  <ul>
-    {% for post in site.posts %}
-      <li>
-        <a  href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        <span class="date">{{ post.date | date: "%b %-d, %Y" }}</span>
-      </li>
-    {% endfor %}
-  </ul>
-  </div>
+<h2>Writing</h2>
+<div class="writing">
+<ul>
+ {% for post in site.posts %}
+<li>
+<a  href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+<span class="date">{{ post.date | date: "%b %-d, %Y" }}</span>
+</li>
+{% endfor %}
+</ul>
+</div>
 </div>
