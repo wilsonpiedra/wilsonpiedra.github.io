@@ -2,9 +2,12 @@
 layout: default
 ---
 
+<h1>I make things for humans.</h1>
+<p>Hello, I am Wilson Piedra a designer living in Uruguay, who likes to solve problems by making simple and useful things for people<span id="dot">.</span></p>
+<p>I am a lover of grids, coffee, minimalism, scandinavian design, bauhaus & dark jazz. I am really stoked about designs coming to live and exploring new tools to improve my design process day by day<span id="dot">.</span></p>
 <div class="home">
 
-  <h1 class="page-heading">Posts</h1>
+  <h2>Writing</h2>
 
   <ul class="post-list">
     {% for post in site.posts %}
@@ -17,7 +20,5 @@ layout: default
       </li>
     {% endfor %}
   </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 
 </div>
