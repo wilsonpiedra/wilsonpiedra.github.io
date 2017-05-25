@@ -4,71 +4,68 @@ body {
     -webkit-font-smoothing: antialiased;
     text-rendering: optimizeLegibility;
     -moz-osx-font-smoothing: grayscale;
-    font-family: 'Roboto', Helvetica Neue, Helvetica, Arial, sans-serif;
-    display: block;
-    box-sizing: border-box;
+    font-family: "Roboto", Helvetica Neue, Helvetica, Arial, Lucida Grande, Lucida Sans, sans-serif;
     margin: 0;
     padding: 0;
     
 }
 
 ::-moz-selection {
-    color: #FFFFFF;
     background: #333333;
+    color: #FFFFFF;
 }
 
 ::selection {
-    color: #FFFFFF; 
     background: #333333;
+    color: #FFFFFF; 
 }
 
 header {
-    padding: 40px 0 100px 0;
-    margin: 0 auto;
-    width: 100%;
-    display: block;
     box-sizing: border-box;
+    display: block;
+    margin: 0 auto;
     overflow: auto;
+    padding: 40px 0 100px 0;
+    width: 100%;
 }
 
 .header-wrapper, .wrapper, .footer-wrapper {
-    max-width: 700px;
-    margin: 0 auto;
     display: block;
+    margin: 0 auto;
+    max-width: 700px;
     overflow: auto;
 }
 
 #logo {
+    float: left;
     display: inline;
     text-align: left;
-    float: left;
 }
 
 #logo a, #logo a:hover {
     color: #333333;
-    text-decoration: none;
     font-weight: 500;
+    text-decoration: none;
 }
 
 #dot {
+    font-weight: 700;
     margin: 0;
     padding: 0;
-    font-weight: 900;
 }
 
 header nav {
-    text-align: right;
     border: none;
-    font-weight: 400;
     float: right;
-
+    font-weight: 400;
+    text-align: right;
 }
 
 header nav ul {
     list-style: none;
     margin: 0;
-    width: auto;
     padding: 0;
+    width: auto;
 }
 
 header nav ul li {
@@ -90,55 +87,125 @@ h1, h2, h3 {
     font-weight: 700;
 }
 
+h2 {
+    font-size: 32px;
+    margin: 100px 0 0 0;
+}
+
 h1 {
     letter-spacing: -1px;
-    margin: 0 0 10px 0;
+    margin: 0 0 32px 0;
 }
 
 p {
     color: #333333;
-    font-family: 'Roboto';
-    line-height: 32px;
     font-weight: 400;
+    line-height: 32px;
     margin: 0 0 32px 0;
 }
 
-footer {
-    padding: 0 0 40px 0;
+.blog {
+    border: none;
+    font-weight: 400;
+}
+
+.blog ul {
+    list-style: none;
     margin: 0;
+    padding: 0;
+    width: auto;
+}
+
+.blog ul li {
+    border-bottom: 1px solid #eeeeee;
+    margin: 0;
+}
+
+.blog ul li:last-child {
+    border-bottom: none;
+}
+
+.blog ul li a {
+    color: #1573dd;
+    position: relative;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+.blog ul li a:after {
+    border-bottom: 2px solid #1573dd;
+    bottom: -4px;
+    content: '';
+    left: 0;
+    position: absolute;
+    transition: width 0.3s ease-out;
+    width: 0;
+}
+
+.blog ul li a:hover:after {
+    transition: width 0.3s;
+	width: 100%;
+}
+
+.date {
+    color: #a0a0a0;
+    display: inline;
+    float: right;
+}
+
+#archive {
+    float: right;
+    margin: 0;
+    text-align: right;
+    
+}
+
+#archive a {
+    color: #a0a0a0;
+    text-decoration: none;
+    transition: all 0.3s ease-out;
+}
+
+#archive a:hover {
+    color: #333333;
+}
+
+footer {
+    margin: 0;
+    overflow: hidden;
+    padding: 100px 0 40px 0;
     width: 100%;
 }
 
 footer a {
+    color: #1573dd;
     position: relative;
+    text-decoration: none;
 	white-space: nowrap;
-	color: #1573dd;
-	text-decoration: none;
 }
 
 footer a:after {
-	content: "";
-	border-bottom: 2px solid #1573dd;
-	bottom: -3px;
-	left: 100%;
-	width: 0;
-	transition: width 0.3s, left 0.3s;
-	position: absolute;
+    bottom: -4px;
+    border-bottom: 2px solid #1573dd;
+    content: '';
+    position: absolute;
+    left: 0;
+    transition: width 0.3s ease-out;
+    width: 0; 
 }
 
 footer a:hover:after {
-	left: 0;
-	width: 100%;
 	transition: width 0.3s;
+    width: 100%;
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 740px) {
 
     #logo a, #logo a:hover {
         font-size: 18px;
 }
     header nav ul li a {
-        font-size: 16px;
+        font-size: 18px;
         margin: 0 0 0 10px;
 }
 
@@ -149,6 +216,21 @@ footer a:hover:after {
     p {
         font-size: 18px;
         line-height: 30px;
+}
+    
+    .blog {
+    font-size: 18px;
+}
+    .blog ul li {
+    padding: 14px 0 14px 0;
+}
+
+    .blog ul li:last-child {
+    padding: 14px 0 28px 0;
+}
+    
+    #archive a {
+    font-size: 18px;
 }
     footer {
         font-size: 18px;
@@ -161,13 +243,13 @@ footer a:hover:after {
     }
 }
 
-@media only screen and (min-width: 801px) {
+@media only screen and (min-width: 741px) {
 
     #logo a, #logo a:hover {
         font-size: 20px;
 }
     header nav ul li a {
-        font-size: 18px;
+        font-size: 20px;
         margin: 0 0 0 20px;
 }
 
@@ -179,6 +261,22 @@ footer a:hover:after {
         font-size: 20px;
         line-height: 32px;
 }
+    .blog {
+    font-size: 20px;
+}
+    
+    .blog ul li {
+    padding: 16px 0 16px 0;
+}
+
+    .blog ul li:last-child {
+    padding: 16px 0 32px 0;
+}
+    
+    #archive a {
+    font-size: 20px;
+}
+   
     footer {
         font-size: 20px;
 }
