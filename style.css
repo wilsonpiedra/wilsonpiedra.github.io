@@ -104,6 +104,15 @@ p {
     margin: 0 0 32px 0;
 }
 
+.quote {
+    font-style: italic;
+    color: #a0a0a0;
+}
+
+#quote-author {
+    font-style: normal;
+}
+
 .writing {
     border: none;
     font-weight: 400;
