@@ -150,7 +150,7 @@ p {
 
 .writing ul li a:hover:after {
     transition: width 0.3s;
-	width: 100%;
+    width: 100%;
 }
 
 .date {
@@ -172,7 +172,7 @@ footer a {
     color: #1573dd;
     position: relative;
     text-decoration: none;
-	white-space: nowrap;
+    white-space: nowrap;
 }
 
 footer a:after {
@@ -226,7 +226,7 @@ footer a:hover:after {
         padding: 0 10px;
 }
     .footer-wrapper {
-        padding: 0 10px 5px 10px;
+        padding: 64px 10px 32px 10px;
     }
 }
 
@@ -270,6 +270,6 @@ footer a:hover:after {
         padding: 0 20px;
 }
         .footer-wrapper {
-        padding: 0 20px 5px 20px;
+        padding: 64px 10px 32px 10px;
     }
 }
