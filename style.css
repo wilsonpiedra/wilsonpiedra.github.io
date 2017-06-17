@@ -260,7 +260,7 @@ footer a:hover:after {
     padding: 16px 0 16px 0;
 }
 
-    .writing ul li:first {
+    .writing ul li:first-child {
     padding: 0 0 16px 0;
 }
     
