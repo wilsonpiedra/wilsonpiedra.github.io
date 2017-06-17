@@ -25,7 +25,7 @@ header {
     display: block;
     margin: 0 auto;
     overflow: auto;
-    padding: 40px 0 70px 0;
+    padding: 32px 0 64px 0;
     width: 100%;
 }
 
@@ -89,28 +89,25 @@ h1, h2, h3 {
 
 h2 {
     font-size: 32px;
-    margin: 100px 0 0 0;
+    margin: 64px 0 0 0;
+    line-height: 1;
 }
 
 h1 {
     letter-spacing: -1px;
     margin: 0 0 32px 0;
+    line-height: 1;
 }
 
 p {
     color: #333333;
     font-weight: 400;
-    line-height: 32px;
+    line-height: 1.6;
     margin: 0 0 32px 0;
 }
 
 .quote {
-    font-style: italic;
     color: #a0a0a0;
-}
-
-#quote-author {
-    font-style: normal;
 }
 
 .writing {
@@ -161,28 +158,13 @@ p {
     display: inline;
     float: right;
 }
-
-#archive {
-    float: right;
-    margin: 0;
-    text-align: right;
-    
-}
-
-#archive a {
-    color: #a0a0a0;
-    text-decoration: none;
-    transition: all 0.3s ease-out;
-}
-
-#archive a:hover {
-    color: #333333;
+   
 }
 
 footer {
     margin: 0;
     overflow: hidden;
-    padding: 100px 0 40px 0;
+    padding: 64px 0 32px 0;
     width: 100%;
 }
 
@@ -224,7 +206,6 @@ footer a:hover:after {
 }
     p {
         font-size: 18px;
-        line-height: 30px;
 }
     
     .writing {
@@ -237,10 +218,7 @@ footer a:hover:after {
     .writing ul li:last-child {
     padding: 14px 0 28px 0;
 }
-    
-    #archive a {
-    font-size: 18px;
-}
+
     footer {
         font-size: 18px;
 }
@@ -268,7 +246,6 @@ footer a:hover:after {
 }
     p {
         font-size: 20px;
-        line-height: 32px;
 }
     .writing {
     font-size: 20px;
