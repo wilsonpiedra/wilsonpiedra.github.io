@@ -265,7 +265,7 @@ footer a:hover:after {
 }
     
     .writing ul li:last-child {
-    padding: 16px 0 0 0;
+    padding: 16px 0 64px 0;
 }
     
     #archive a {
@@ -279,6 +279,6 @@ footer a:hover:after {
         padding: 0 20px;
 }
         .footer-wrapper {
-        padding: 64px 10px 32px 10px;
+        padding: 0 10px 32px 10px;
     }
 }
