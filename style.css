@@ -227,14 +227,6 @@ footer a:hover:after {
     padding: 14px 0 14px 0;
 }
 
-    .writing ul li a:first-child {
-    padding: 0 0 14px 0;
-}
-    
-    .writing ul li a:last-child {
-    padding: 14px 0 14px 0;
-}
-
     footer {
         font-size: 18px;
 }
@@ -269,18 +261,6 @@ footer a:hover:after {
     
     .writing ul li a {
     padding: 16px 0 16px 0;
-}
-
-    .writing ul li a:first-child {
-    padding: 32px 0 16px 0;
-}
-    
-    .writing ul li a:last-child {
-    padding: 16px 0 64px 0;
-}
-    
-    #archive a {
-    font-size: 20px;
 }
    
     footer {
