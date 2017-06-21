@@ -101,6 +101,29 @@ h1 {
     line-height: 1;
 }
 
+.home p a {
+    color: #1573dd;
+    position: relative;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+.home p a:after {
+    border-bottom: 2px solid #1573dd;
+    bottom: -4px;
+    content: '';
+    left: 0;
+    position: absolute;
+    transition: width 0.3s ease-out;
+    width: 0;
+}
+
+.home p a:hover:after {
+    transition: width 0.3s;
+    width: 100%;
+}
+	
+
 p {
     color: #333333;
     font-weight: 400;
