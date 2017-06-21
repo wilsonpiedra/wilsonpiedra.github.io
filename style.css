@@ -103,25 +103,14 @@ h1 {
 .home p a {
     color: #1573dd;
     position: relative;
-    text-decoration: none;
-    white-space: nowrap;
+    border-bottom: 2px solid #A0CEFF;
+    padding-bottom: 2px;
 }
 
-.home p a:after {
+.home p a:hover {
     border-bottom: 2px solid #1573dd;
-    bottom: -4px;
-    content: '';
-    left: 0;
-    position: absolute;
-    transition: width 0.2s ease-out;
-    width: 0;
-}
-
-.home p a:hover:after {
-    transition: width 0.2s;
-    width: 100%;
-}
-	
+    transition: all 0.2s ease-out;
+}	
 
 p {
     color: #333333;
@@ -142,7 +131,7 @@ p {
 
 .writing ul {
     list-style: none;
-    margin: 16px 0 58px 0;
+    margin: 0;
     padding: 0;
     width: auto;
 }
@@ -190,22 +179,13 @@ footer a {
     color: #1573dd;
     position: relative;
     text-decoration: none;
-    white-space: nowrap;
+    border-bottom: 2px solid #A0CEFF;
+    padding-bottom: 2px;
 }
 
-footer a:after {
-    bottom: -4px;
+footer a:hover {
     border-bottom: 2px solid #1573dd;
-    content: '';
-    position: absolute;
-    left: 0;
-    transition: width 0.2s ease-out;
-    width: 0; 
-}
-
-footer a:hover:after {
-	transition: width 0.2s;
-    width: 100%;
+    transition: all 0.2s ease-out;
 }
 
 @media only screen and (max-width: 740px) {
@@ -279,4 +259,3 @@ footer a:hover:after {
         padding: 0 10px 32px 10px;
     }
 }
-
