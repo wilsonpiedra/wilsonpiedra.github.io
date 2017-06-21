@@ -106,11 +106,12 @@ h1 {
     text-decoration: none;
     border-bottom: 2px solid #A0CEFF;
     padding-bottom: 2px;
+    transition: all 0.2s ease-out;
+
 }
 
 .home p a:hover {
     border-bottom: 2px solid #1573dd;
-    transition: all 0.2s ease-out;
 }	
 
 p {
@@ -182,11 +183,12 @@ footer a {
     text-decoration: none;
     border-bottom: 2px solid #A0CEFF;
     padding-bottom: 2px;
+    transition: all 0.2s ease-out;
+
 }
 
 footer a:hover {
     border-bottom: 2px solid #1573dd;
-    transition: all 0.2s ease-out;
 }
 
 @media only screen and (max-width: 740px) {
