@@ -80,8 +80,7 @@ header nav ul li a {
 }
 
 header nav ul li a:hover {
-    color: #333333;
-}
+    color: #333333;}
 
 h1, h2, h3 {
     color: #333333;
@@ -159,6 +158,7 @@ p {
     text-decoration: none;
     display: block;
     background-color: #ffffff;
+    transition: all 0.2s ease-out;
 }
 
 .writing ul li a:hover {
