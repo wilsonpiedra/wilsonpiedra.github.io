@@ -142,7 +142,7 @@ p {
 
 .writing ul {
     list-style: none;
-    margin: 0;
+    margin: 16px 0 58px 0;
     padding: 0;
     width: auto;
 }
@@ -150,6 +150,10 @@ p {
 .writing ul li {
     border-bottom: 1px solid #eeeeee;
     margin: 0;
+}
+
+.writing ul li:last-child {
+    border-bottom: none;
 }
 
 .writing ul li a {
@@ -163,7 +167,6 @@ p {
 
 .writing ul li a:hover {
     background-color: #eeeeee;
-    padding: 16px 0 16px 16px;
     
 }
 
@@ -276,3 +279,4 @@ footer a:hover:after {
         padding: 0 10px 32px 10px;
     }
 }
+
