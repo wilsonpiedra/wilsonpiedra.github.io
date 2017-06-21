@@ -76,7 +76,7 @@ header nav ul li {
 header nav ul li a {
     color: #a0a0a0;
     text-decoration: none;
-    transition: all 0.3s ease-out;
+    transition: all 0.2s ease-out;
 }
 
 header nav ul li a:hover {
@@ -114,12 +114,12 @@ h1 {
     content: '';
     left: 0;
     position: absolute;
-    transition: width 0.3s ease-out;
+    transition: width 0.2s ease-out;
     width: 0;
 }
 
 .home p a:hover:after {
-    transition: width 0.3s;
+    transition: width 0.2s;
     width: 100%;
 }
 	
@@ -153,15 +153,17 @@ p {
     margin: 0;
 }
 
-.writing ul li:last-child {
-    border-bottom: none;
-}
-
 .writing ul li a {
     color: #1573dd;
     position: relative;
     text-decoration: none;
     display: block;
+    background-color: #ffffff;
+}
+
+.writing ul li a:hover {
+    background-color: #eeeeee;
+    
 }
 
 
@@ -193,12 +195,12 @@ footer a:after {
     content: '';
     position: absolute;
     left: 0;
-    transition: width 0.3s ease-out;
+    transition: width 0.2s ease-out;
     width: 0; 
 }
 
 footer a:hover:after {
-	transition: width 0.3s;
+	transition: width 0.2s;
     width: 100%;
 }
 
