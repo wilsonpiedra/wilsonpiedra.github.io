@@ -74,7 +74,7 @@ header nav ul li {
 }
 
 header nav ul li a {
-    color: #a0a0a0;
+    color: #bdbdc2;
     text-decoration: none;
     transition: all 0.2s ease-out;
 }
@@ -121,7 +121,7 @@ p {
 }
 
 .post-meta {
-   color: #a0a0a0;
+   color: #bdbdc2;
    margin: 32px 0 64px 0;
 }
 
@@ -156,14 +156,14 @@ p {
 }
 
 .writing ul li a:hover {
-    background-color: #eeeeee;
+    background-color: #f5f5fa;
     padding: 16px;
     
 }
 
 
 .date {
-    color: #a0a0a0;
+    color: #bdbdc2;
     display: inline;
     float: right;
 }
