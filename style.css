@@ -89,7 +89,7 @@ h1, h2, h3 {
 }
 
 h2 {
-    font-size: 32px;
+    font-size: 30px;
     margin: 64px 0 0 0;
     line-height: 1;
 }
@@ -157,6 +157,7 @@ p {
 
 .writing ul li a:hover {
     background-color: #eeeeee;
+    padding: 16px;
     
 }
 
@@ -245,7 +246,7 @@ footer a:hover:after {
 }
 
     h1 {
-        font-size: 44px;
+        font-size: 40px;
         letter-spacing: -1px;
 }
     p {
