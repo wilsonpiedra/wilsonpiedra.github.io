@@ -111,6 +111,19 @@ h1 {
     width: auto;
 }
 
+.post ul {
+    color: #333333;
+    font-size: 20px;
+    line-height: 1.6;
+    margin: 32px 0 0 0;
+    padding: 0;
+}
+
+.post ul li {
+    margin: 0;
+    padding: 0;
+}
+
 .home p a {
     color: #1573dd;
     position: relative;
