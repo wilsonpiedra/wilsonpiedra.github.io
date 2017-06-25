@@ -120,8 +120,8 @@ h1 {
 }
 
 .post ul li {
-    margin: 0;
-    padding: 0 0 0 32px;
+    margin: 0 0 0 32px;
+    padding: 0;
 }
 
 .home p a {
