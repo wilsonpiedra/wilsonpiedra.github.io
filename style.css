@@ -106,7 +106,9 @@ h1 {
 
 .post img {
     margin: 0;
+    max-width: 100%;
     padding: 0;
+    width: auto;
 }
 
 .home p a {
