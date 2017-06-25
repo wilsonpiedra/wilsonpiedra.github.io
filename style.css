@@ -116,7 +116,7 @@ h1 {
     font-size: 20px;
     line-height: 1.6;
     margin: 32px 0 0 0;
-    padding: 0;
+    padding: 0 0 0 32px;
 }
 
 .post ul li {
