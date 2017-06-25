@@ -125,14 +125,14 @@ h1 {
 }
 
 .post a {
-    border-bottom: 2px solid #eeeeee;
+    border-bottom: 2px solid #d1d1d1;
     color: #333;
     text-decoration: none;
     transition: all 0.2s ease-out;
 }
 
 .post a:hover {
-    color: #eeeeee
+    border-bottom: 2 px solid #eeeeee;
 }
 
 .home p a {
