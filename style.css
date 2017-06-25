@@ -100,8 +100,13 @@ h1 {
     line-height: 1;
 }
 
-.post-title {
+.post h1 {
     text-align: center;
+}
+
+.post img {
+    margin: 0;
+    padding: 0;
 }
 
 .home p a {
