@@ -143,6 +143,11 @@ h1 {
     border-bottom: 2px solid #1573dd;
 }	
 
+.home p {
+  animation-duration: 3s;
+  animation-delay: 2s;
+}
+
 p {
     color: #333333;
     font-weight: 400;
