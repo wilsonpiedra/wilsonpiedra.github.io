@@ -121,15 +121,17 @@ h1 {
 }
 
 .post a {
-    border-bottom: 2px solid #333;
-    color: #333;
+    border-bottom: 2px solid #333333;
+    color: #333333;
     text-decoration: none;
     transition: all 0.2s ease-out;
     padding-bottom: 2px;
+    background-color: #ffffff;
 }
 
 .post a:hover {
-    opacity: 0.5;
+    background-color: #333333;
+    color: #ffffff;
 }
 
 .home p a {
@@ -142,7 +144,8 @@ h1 {
 }
 
 .home p a:hover {
-    opacity: 0.5;
+    background-color: #1573dd;
+    color: #ffffff;
 }	
 
 .home h1 {
