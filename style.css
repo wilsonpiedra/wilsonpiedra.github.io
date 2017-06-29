@@ -70,13 +70,28 @@ header nav ul li {
 }
 
 header nav ul li a {
-    color: #bdbdc2;
-    text-decoration: none;
+    color: #333333;
+    font-weight: 500;
     transition: all 0.2s ease-out;
+    position: relative;
+    text-decoration: none;
+	white-space: nowrap;
 }
 
-header nav ul li a:hover {
-    color: #333333;}
+header nav ul li a:after {
+    bottom: -4px;
+    border-bottom: 2px solid #333333;
+    content: '';
+    position: absolute;
+    left: 0;
+    transition: width 0.2s ease-out;
+    width: 0; 
+}
+
+header nav ul li a:hover:after {
+	transition: width 0.2s;
+    width: 100%;
+}
 
 h1, h2, h3 {
     color: #333333;
