@@ -121,7 +121,7 @@ h1 {
 }
 
 .post a {
-    border-bottom: 2px solid #d1d1d1;
+    border-bottom: 2px solid #333;
     color: #333;
     text-decoration: none;
     transition: all 0.2s ease-out;
@@ -129,20 +129,20 @@ h1 {
 }
 
 .post a:hover {
-    border-bottom: 2px solid #333333;
+    opacity: 50%;
 }
 
 .home p a {
     color: #1573dd;
     position: relative;
     text-decoration: none;
-    border-bottom: 2px solid #A0CEFF;
+    border-bottom: 2px solid #1573dd;
     transition: all 0.2s ease-out;
 
 }
 
 .home p a:hover {
-    border-bottom: 2px solid #1573dd;
+    opacity: 50%;
 }	
 
 .home h1 {
