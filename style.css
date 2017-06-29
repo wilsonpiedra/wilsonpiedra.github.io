@@ -222,14 +222,14 @@ footer a {
     color: #1573dd;
     position: relative;
     text-decoration: none;
-    border-bottom: 2px solid #A0CEFF;
+    border-bottom: 2px solid #1573dd;
     transition: all 0.2s ease-out;
     padding-bottom: 4px;
 
 }
 
 footer a:hover {
-    border-bottom: 2px solid #1573dd;
+    opacity: 0.5;
 }
 
 @media only screen and (max-width: 740px) {
