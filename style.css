@@ -35,7 +35,7 @@ header {
 .header-wrapper {
     display: block;
     margin: 0 auto;
-    wodth: 100%;
+    width: 100%;
     overflow: auto;
     padding 0 32px;
 }
