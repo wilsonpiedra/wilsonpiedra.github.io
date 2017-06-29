@@ -32,6 +32,14 @@ header {
     animation-delay: 0.3s;
 }
 
+.header-wrapper {
+    display: block;
+    margin: 0 auto;
+    wodth: 100%;
+    overflow: auto;
+    padding 0 32px;
+}
+
 .header-wrapper, .wrapper, .footer-wrapper {
     display: block;
     margin: 0 auto;
@@ -275,7 +283,7 @@ footer a:hover {
     footer {
         font-size: 18px;
 }
-    .header-wrapper, .wrapper {
+    .wrapper {
         padding: 0 10px;
 }
     .footer-wrapper {
@@ -311,7 +319,7 @@ footer a:hover {
     footer {
         font-size: 20px;
 }
-    .header-wrapper, .wrapper {
+    .wrapper {
         padding: 0 20px;
 }
         .footer-wrapper {
