@@ -129,7 +129,7 @@ h1 {
 }
 
 .post a:hover {
-    opacity: 50%;
+    opacity: 0.5;
 }
 
 .home p a {
@@ -142,7 +142,7 @@ h1 {
 }
 
 .home p a:hover {
-    opacity: 50%;
+    opacity: 0.5;
 }	
 
 .home h1 {
