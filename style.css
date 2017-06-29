@@ -94,7 +94,7 @@ header nav ul li a:hover:after {
 }
 
 header nav ul li a:active {
-    border-botom: 2px solid #333333;
+    border-bottom: 2px solid #333333;
     padding-bottom: 2px;
 }
 
