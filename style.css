@@ -29,7 +29,6 @@ header {
     padding: 64px 0 96px 0;
     width: 100%;
     animation-duration: 0.2s;
-    animation-delay: 0.3s;
 }
 
 .header-wrapper {
@@ -96,7 +95,7 @@ header nav ul li a:after {
 }
 
 header nav ul li a:hover:after {
-	transition: width 0.2s;
+    transition: width 0.2s;
     width: 100%;
 }
 
@@ -121,6 +120,11 @@ h1 {
     letter-spacing: -1px;
     margin: 0;
     line-height: 1;
+}
+
+.post {
+    animation-duration: 0.2s;
+    animation-delay: 0.2s;
 }
 
 .post h1 {
