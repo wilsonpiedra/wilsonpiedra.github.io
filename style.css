@@ -241,7 +241,6 @@ p {
 footer {
     margin: 0;
     overflow: hidden;
-    padding: 64px 0;
     width: 100%;
 }
 
@@ -291,7 +290,7 @@ footer a:hover {
         padding: 0 10px;
 }
     .footer-wrapper {
-        padding: 64px 10px 32px 10px;
+        padding: 64px 10px 64px 10px;
     }
 }
 
