@@ -28,7 +28,6 @@ header {
     overflow: auto;
     padding: 64px 0 96px 0;
     width: 100%;
-    animation-duration: 0.2s;
 }
 
 .header-wrapper {
@@ -124,7 +123,7 @@ h1 {
 
 .post {
     animation-duration: 0.2s;
-    animation-delay: 0.2s;
+    animation-delay: 0.1s;
 }
 
 .post h1 {
