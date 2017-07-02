@@ -104,7 +104,7 @@ header nav ul li a:active {
 }
 
 h1, h2, h3 {
-    color: #333333;
+    color: #111111;
     font-weight: 700;
     line-height: 1;
 }
@@ -234,7 +234,7 @@ p {
 
 
 .date {
-    color: #bdbdc2;
+    color: #cccccc;
     display: inline;
     float: right;
 }
