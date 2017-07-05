@@ -192,6 +192,10 @@ p {
     margin: 32px 0 0 0;
 }
 
+.dot {
+    font-weight: 700;
+}
+
 .post-meta {
    color: #bdbdc2;
    margin: 32px 0 64px 0;
