@@ -76,7 +76,7 @@ header nav ul li {
 
 header nav ul li a {
     color: #111111;
-    font-weight: 500;
+    font-weight: 400;
     transition: all 0.2s ease-out;
     position: relative;
     text-decoration: none;
