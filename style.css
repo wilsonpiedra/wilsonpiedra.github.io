@@ -120,11 +120,11 @@ h1 {
     letter-spacing: -1px;
     margin: 0;
     line-height: 1;
+    animation-delay: 0.5s;
 }
 
-.post {
-    animation-duration: 0.3s;
-    animation-delay: 0.2s;
+.post-content {
+    animation-delay: 1s;
 }
 
 .post h1 {
@@ -161,6 +161,9 @@ h1 {
 
 .post a:hover {
     border-bottom: 2px solid #333333;
+}
+.home {
+    animation-delay: 1s;
 }
 
 .home p a {
