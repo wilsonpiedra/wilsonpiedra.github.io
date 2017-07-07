@@ -3,7 +3,7 @@ layout: default
 ---
 <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 <h1 itemprop="name headline" class="animated fadeInUp">{{ page.title }}</h1>
-<div class="post-content animated fadeInUp" itemprop="articleBody">
+<div class="post-content animated fadeIn" itemprop="articleBody">
     {{ content }}
 </div>
 <p class="post-meta"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>{% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}</p>
