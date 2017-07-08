@@ -33,7 +33,7 @@ header {
 .header-wrapper {
     display: block;
     margin: 0 auto;
-    max-width: 900px;
+    max-width: 960px;
     overflow: auto;
 }
 
