@@ -155,22 +155,11 @@ h1 {
     padding: 0;
 }
 
-.post a {
-    border-bottom: 2px solid #cccccc;
-    color: #333333;
-    text-decoration: none;
-    transition: all 0.2s ease-out;
-    padding-bottom: 2px;
-}
-
-.post a:hover {
-    border-bottom: 2px solid #333333;
-}
 .home {
     padding: 0 0 32px 0;
 }
 
-.home p a {
+p a {
     color: #1573dd;
     position: relative;
     text-decoration: none;
@@ -179,7 +168,7 @@ h1 {
 
 }
 
-.home p a:hover {
+p a:hover {
     opacity: 0.5;
 }	
 
