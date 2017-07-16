@@ -170,7 +170,7 @@ p a {
 }
 
 p a:hover {
-    opacity: 0.5;
+    border-bottom: 2px solid #ffffff;
 }	
 
 .home h1 {
@@ -260,7 +260,7 @@ footer a {
 }
 
 footer a:hover {
-    opacity: 0.5;
+    border-bottom: 2px solid #1573dd;
 }
 
 @media only screen and (max-width: 740px) {
