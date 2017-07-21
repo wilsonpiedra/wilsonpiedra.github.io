@@ -76,7 +76,7 @@ header nav ul li {
 }
 
 header nav ul li a {
-    color: #111111;
+    color: #8c8c8c;
     font-weight: 400;
     transition: all 0.2s ease-out;
     position: relative;
@@ -84,24 +84,13 @@ header nav ul li a {
     white-space: nowrap;
 }
 
-header nav ul li a:after {
-    bottom: -4px;
-    border-bottom: 2px solid #111111;
-    content: '';
-    position: absolute;
-    left: 0;
-    transition: width 0.2s ease-out;
-    width: 0; 
-}
-
-header nav ul li a:hover:after {
-    transition: width 0.2s;
-    width: 100%;
+header nav ul li a:hover {
+    color: #333333;
 }
 
 header nav ul li a:active {
     border-bottom: 2px solid #333333;
-    padding-bottom: 2px;
+    color: #333;
 }
 
 .delay03s {
