@@ -2,11 +2,10 @@
 layout: post
 title:  "Sound in UI"
 date:   2017-05-18 18:28:58 -0300
-categories: hci
+categories:
 ---
 
-Incorporate admin functions into the public interface
-Admin screens — the screens used to manage preferences, people, etc. — have a tendency to look like crap. That's because the majority of development time is spent on the public-facing interface instead.
+Incorporate admin functions into the public interface Admin screens — the screens used to manage preferences, people, etc. — have a tendency to look like crap. That's because the majority of development time is spent on the public-facing interface instead.
 
 To avoid crappy-admin-screen syndrome, don't build separate screens to deal with admin functions. Instead, build these functions (i.e. edit, add, delete) into the regular application interface.
 
