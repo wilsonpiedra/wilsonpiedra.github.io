@@ -54,7 +54,7 @@ header {
 }
 
 #logo a, #logo a:hover {
-    color: #111111;
+    color: #222222;
     font-weight: 700;
     text-decoration: none;
 }
@@ -105,7 +105,7 @@ header nav ul li a:active {
 }
 
 h1, h2, h3 {
-    color: #111111;
+    color: #222222;
     font-weight: 700;
     line-height: 1;
 }
