@@ -5,17 +5,37 @@ date:   2017-05-06 18:28:58 -0300
 categories:
 ---
 
-There is one thing I can not point out enough: making things obvious for the User. Often the easiest solution is the best one to go with. There is no need for fancy Split-Action-Buttons to hide certain actions when it’s not obvious for the user. Don’t get me wrong: it’s important to have e.g. animations guiding the user and explaining certain progresses. The UI is the first thing most people will recognize and studies have shown that a nice UI conveys sophistication and good performance. And it’s fun to work on.
+95% of the information on the web is written language. It is only logical to say that a web designer should get good training in the main discipline of shaping written information, in other words: Typography.
 
-Some times it is better to just write “Start Workout” instead of some 1px outline pictogram without any explanation that keeps the user questioning. This can lead to (too much) friction and/or frustration.
+Back in 1969, Emil Ruder, a famous Swiss typographer, wrote on behalf of his contemporary print materials what we could easily say about our contemporary websites:
 
-“In user experience, friction is defined as interactions that inhibit people from intuitively and painlessly achieving their goals within a digital interface.”
-–Victoria Young
+Today we are inundated with such an immense flood of printed matter that the value of the individual work has depreciated, for our harassed contemporaries simply cannot take everything that is printed today. It is the typographer’s task to divide up and organize and interpret this mass of printed matter in such a way that the reader will have a good chance of finding what is of interest to him.
 
-A little bit of friction gives the user power. It’s like building something with your hands (IKEA Effect) or creating fire. But it is pretty hard to strike a balance here. It feels satisfying if you achieve something by your own right? A little help, but not too much.
+With some imagination (replace print with online) this sounds like the job description of an information designer. It is the information designer’s task “to divide up and organize and interpret this mass of printed matter in such a way that the reader will have a good chance of finding what is of interest to him”.
 
-The best solution here is to have bold and clear Iconography in addition to text or vise versa (color-coding also improves a lot). Make things clear. Good UI is important, but useless if the UX and the Copy fails. In the best case you are working with a copywriter. But most often the designer ends up with doing the copy.
-(Here are some good tips for improving your copy as a designer)
+Macro-typography (overall text-structure) in contrast to micro typography (detailed aspects of type and spacing) covers many aspects of what we nowadays call “information design”. So to speak, information designers nowadays do the job that typographers did 30 years ago:
 
-But back to topic:
-A good typeface, an easy to understand Iconography, color-coding and obvious (short) copy will be magic if done right.
+Typography has one plain duty before it and that is to convey information in writing. No argument or consideration can absolve typography from this duty. A printed work which cannot be read becomes a product without purpose.
+
+Optimizing typography is optimizing readability, accessibility, usability(!), overall graphic balance. Organizing blocks of text and combining them with pictures, isn’t that what graphic designers, usability specialists, information architects do? So why is it such a neglected topic?
+Too Few Fonts? Resolution Too Low?
+
+The main—usually whiny—argument against typographical discipline online is that there are only few fonts available. The second argument is that the screen resolution is too low, which makes it hard to read pixelated or anti-aliased fonts in the first place.
+
+The argument that we do not have enough fonts at our disposition is as good as irrelevant: During the Italian renaissance the typographer had one font to work with, and yet this period produced some of the most beautiful typographical work:
+
+The typographer shouldn’t care too much what kind of fonts he has at his disposal. Actually the choice of fonts shouldn’t be his major concern. He should use what is available at the time and use it the best he can.
+
+Choosing a Typeface Is Not Typography
+
+The second argument is not much better. In the beginning of printing the quality of printed letters was way worse than what we see on the screen nowadays. More importantly, if handled professionally, screen fonts are pretty well readable.
+
+Information design is not about the use of good typefaces, it is about the use of good typography. Which is a huge difference.
+
+Anyone can use typefaces, some can choose good typefaces, but only few master typography.
+
+Treat Text as a User Interface
+
+Yes, it is annoying how different browsers and platforms render fonts, and yes, the resolution issue makes it hard to stay focused for more than five minutes. But, well, it is part of a web designer’s job to make sure that texts are easy and nice to read on all major browsers and platforms. Correct leading, word and letter spacing, active white space, and dosed use of color help readability. But that’s not quite it. A great web designer knows how to work with text not just as content, he treats “text as a user interface”. Have a look at Khoi Vinh’s website, and you’ll probably understand what that means:
+
+Slightly more famous examples of unornamental websites that treat text as interface are: google, eBay, craigslist, youtube, flickr, Digg, reddit, delicious. Control over typography is not just a basic design necessity, knowing how to treat text as a user interface is the key factor for successful Web design. Successful websites manage to create a simple interface AND a strong identity at the same time. But that’s another subject.
