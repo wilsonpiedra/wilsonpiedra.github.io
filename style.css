@@ -126,6 +126,7 @@ h1 {
 .subheader {
     color:#8c8c8c;
     font-weight: 300;
+    margin: 16px 0 0 0;
 }
 
 .post h1 {
