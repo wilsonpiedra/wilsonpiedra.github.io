@@ -107,8 +107,24 @@ header nav ul li a:hover:after {
 	transition: width 0.2s;
 }
 
+.delay01s {
+    animation-delay: 0.1s;
+}
+
+.delay02s {
+    animation-delay: 0.2s;
+}
+
 .delay03s {
     animation-delay: 0.3s;
+}
+
+.delay04s {
+    animation-delay: 0.4s;
+}
+
+.delay05s {
+    animation-delay: 0.5s;
 }
 
 .delay06s {
