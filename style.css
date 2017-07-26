@@ -183,6 +183,10 @@ h1 {
     padding: 0 0 32px 0;
 }
 
+.home p a {
+    padding-bottom: 4px;
+}
+
 p a {
     color: #1573dd;
     position: relative;
