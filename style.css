@@ -183,10 +183,6 @@ h1 {
     padding: 0 0 32px 0;
 }
 
-.home p a {
-    padding-bottom: 4px;
-}
-
 p a {
     color: #1573dd;
     position: relative;
@@ -199,6 +195,32 @@ p a {
 p a:hover {
     border-bottom: 2px solid #ffffff;
 }	
+
+.home p a {
+    color: #1573dd;
+    font-weight: 400;
+    transition: all 0.2s ease-out;
+    position: relative;
+    text-decoration: none;
+    white-space: nowrap;
+    line-height: 1;
+}
+
+.home p a:after {
+    content: "";
+    border-bottom: 2px solid #1573dd;
+    bottom: -2px;
+    left: 0;
+    width: 0;
+    transition: width 0.2s, left 0.2s;
+    position: absolute;
+}
+
+.home p a:hover:after {
+	right: 0;
+	width: 100%;
+	transition: width 0.2s;
+}
 
 .home h1 {
     animation-duration: 0.2s;
