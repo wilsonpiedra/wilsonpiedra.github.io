@@ -201,7 +201,6 @@ p a:hover {
     position: relative;
     text-decoration: none;
     white-space: nowrap;
-    line-height: 1;
     border: 0;
 }
 
