@@ -157,6 +157,10 @@ h1 {
     text-align: center;
 }
 
+.post-content {
+    font-family: "PT Serif", Georgia, serif;
+}
+
 .post img {
     margin: 0;
     max-width: 100%;
