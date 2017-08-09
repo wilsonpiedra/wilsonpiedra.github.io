@@ -26,7 +26,6 @@ header {
     display: block;
     margin: 0 auto;
     overflow: auto;
-    padding: 64px 0 192px 0;
     width: 100%;
 }
 
@@ -35,7 +34,7 @@ header {
     margin: 0 auto;
     width: auto;
     max-width: 100%;
-    padding: 0 64px;
+    padding: 64px 64px 192px 64px;
     overflow: auto;
 }
 
