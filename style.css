@@ -170,8 +170,7 @@ h1 {
     color: #333333;
     font-size: 20px;
     line-height: 1.6;
-    margin: 32px 0 0 0;
-    padding: 0 0 0 32px;
+    margin: 34px 0 0 0;
 }
 
 .post ul li {
@@ -242,7 +241,7 @@ p {
 }
 
 .post p {
-    margin: 32px auto 0 auto;
+    margin: 34px auto 0 auto;
 }
 .dot {
     font-weight: 700;
